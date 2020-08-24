@@ -5,8 +5,8 @@ import SBAImages from './SBAGallery';
 import MSAImages from './MSAGallery';
 import OTBImages from './OTBGallery';
 import MMImages from './MMGallery';
+import Fade from 'react-reveal/Fade';
 import './style.css';
-
 
 class Projects extends Component {
 
@@ -142,9 +142,10 @@ class Projects extends Component {
   render(){
 
     return (
+      <Fade>
       <div id="parent">
-        <h3 style={{display: this.state.backArrow ? null : 'none'}} onClick={() => this.openProjects()}>&larr;</h3>
-        <h1>{this.state.title}</h1>
+        <h3 style={{display: this.state.backArrow ? null : 'none'}} onClick={() => this.openProjects()}>&larr; <span>Projects</span></h3>
+        <h2>{this.state.title}</h2>
         <h2>{ this.state.projectTitle }</h2>
         <div className = 'projects' style={{display: this.state.setVisible ? null : 'none'}}>
 
@@ -189,6 +190,7 @@ class Projects extends Component {
         </div>
 
       </div>
+      </Fade>
     )
   }
 }

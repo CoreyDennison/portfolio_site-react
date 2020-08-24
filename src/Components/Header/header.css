@@ -1,4 +1,61 @@
-h5 {
-    color: white;
-    font-size: 30px;
+#header_con {
+    width: 400px;
+    float: right;
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+#header_con h5 {
+    color: white !important;
+    font-size: 40px !important;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    float: left;
+    margin: 0px;
+    margin-bottom: 30px;
+    opacity: 0;
+}
+
+#header_con h5.header1 {
+    animation: slide-left 1s forwards;
+    animation-delay: 0.5s;
+}
+
+#header_con h5.header2 {
+    animation: slide-left 1s forwards;
+    animation-delay: 1.5s;
+}
+
+#header_con h5.header3 {
+    animation: slide-left 1s forwards;
+    animation-delay: 2.5s;
+}
+
+@keyframes slide-left {
+    from {
+        margin-left: 300px;
+        width: 300%; 
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+#site_header img {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+#aboutMe {
+    opacity: 0;
+}
+
+#aboutMe p {
+    color: white !important;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    margin-bottom: 100px;
 }

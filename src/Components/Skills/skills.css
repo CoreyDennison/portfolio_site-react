@@ -1,4 +1,30 @@
-h5 {
+#skills h2 {
+    margin-top: 80px;
+}
+
+#skills_con {
+    background-color: #79cdcf;
+    width: 100%;
+    height: auto;
+}
+
+#skills_con ul {
     color: white;
-    font-size: 30px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#skills_con ul li {
+    font-size: 20px;
+    padding: 10px 60px 30px 20px;
+}
+
+#skills_con ul li span {
+    position: relative;
+    top: 5px;
+    padding-right: 20px;
 }

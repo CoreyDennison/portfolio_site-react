@@ -9,9 +9,9 @@ class App extends Component {
   render(){
     return(
       <div id="components">
-        <Header/>,
-        <Projects/>,
-        <Skills/>,
+        <Header/>
+        <Projects/>
+        <Skills/>
         <Footer/>
       </div>
     )
