@@ -28,3 +28,89 @@
     top: 5px;
     padding-right: 20px;
 }
+
+/*------------------ "Education" Section ----------------*/
+#edu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/*------------------ "ITT" Section ----------------*/
+#itt {
+    margin-left: 30px;
+    width: 45%;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+#itt h3 {
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: -18px;    
+}
+
+#itt h3 span { 
+    padding-left: 10px;
+    position: relative;
+    top: 0px;
+    font-size: 20px !important;
+    color: rgb(99, 98, 98);
+}
+
+#itt h4 {
+    font-size: 20px;
+    color: rgb(73, 73, 73);
+}
+
+#itt ul {
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+    list-style: circle;
+}
+
+#itt ul li {
+    padding-bottom: 15px;
+}
+
+/*------------------ "DID" Section ----------------*/
+#did {
+    width: 45%;
+    margin-left: 30px;
+}
+
+#did h3 {
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: -18px; 
+}
+
+#did h3 span { 
+    padding-left: 10px;
+    position: relative;
+    top: 0px;
+    font-size: 20px !important;
+    color: rgb(99, 98, 98);
+}
+
+#did h4 {
+    font-size: 20px;
+    color: rgb(73, 73, 73);
+}
+
+#did ul {
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+    list-style: circle;
+}
+
+#did ul li {
+    padding-bottom: 15px;
+}
