@@ -6,13 +6,14 @@ h3 {
     margin-left: 30px;
     margin-top: -40px;
     font-size: 50px;
-    color: rgb(141, 203, 253);
+    color: #79cdcf;
 }
 
 h3 span {
     position: relative;
     top: -5px;
     font-size: 25px;
+    color: #79cdcf
 }
 
 h3:hover {
@@ -225,7 +226,7 @@ h2 {
 }
 /*---------------END-------------*/
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 600px) {
 
     .projects .joc_con {
         width: 200px;
@@ -290,9 +291,42 @@ h2 {
 
 }
 
+@media only screen and (max-width: 420px){
+
+    .projects {
+        margin-top: 70px;
+        margin-bottom: -50px;
+    }
+
+    #projectStyles h2 {
+        font-size: 22px !important;
+        margin-top: -50px;
+    }
+
+    .projects .joc_con, .spotify_con, .movie_con, .otb_con, .mm_con {
+        width: 150px !important;
+        height: 150px !important;
+    }
+
+    .projects .joc_con p, .spotify_con p, .movie_con p, .otb_con p, .mm_con p {
+        display: none !important;
+    }
+
+    h3 {
+        margin-top: -70px;
+    }
+
+    h3 span {
+        font-size: 22px;
+    }
+
+}
+
+
 #projectPage p {
     font-size: 18px;
     margin-left: 30px;
     margin-right: 30px;
     color: white;
 }
+

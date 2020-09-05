@@ -13,9 +13,9 @@ class Skills extends Component {
     render(){
         return(
             <div id="skills">
-                <Slide left>
+                <Fade>
                     <h2>What I'm good at ...</h2>
-                </Slide>
+                </Fade>
 
                 
                 <div id="skills_con">
@@ -25,23 +25,21 @@ class Skills extends Component {
                             <li><span><FontAwesomeIcon icon={faCss3} style={{ width: 20, height: 30}}/></span>CSS</li>
                             <li><span><FontAwesomeIcon icon={faJsSquare} style={{ width: 30, height: 30}}/></span>JavaScript</li>
                             <li><span><FontAwesomeIcon icon={faReact} style={{ width: 30, height: 30}}/></span>React</li>
-                            <li><span><FontAwesomeIcon icon={faNode} style={{ width: 40, height: 40}}/></span>Node</li>
+                            <li><span><FontAwesomeIcon icon={faNode} style={{ width: 40, height: 40}}/></span><p>Node</p></li>
                             <li><span><FontAwesomeIcon icon={faPhp} style={{ width: 30, height: 30}}/></span>PHP</li>
                             <li><span><FontAwesomeIcon icon={faDatabase} style={{ width: 30, height: 30}}/></span>SQL</li>
                             <li><span><FontAwesomeIcon icon={faUserCog} style={{ width: 30, height: 30}}/></span>UX / UI Design</li>
-                            <li><span><FontAwesomeIcon icon={faReply} style={{ width: 30, height: 30}}/></span>API Integration</li>
-                            <li><span><FontAwesomeIcon icon={faCompress} style={{ width: 30, height: 30}}/></span>Responsive Web Design</li>
-                            <li><span><FontAwesomeIcon icon={faMobileAlt} style={{ width: 30, height: 30}}/></span>Mobile App Prototyping</li>
+                            <li class="move"><span><FontAwesomeIcon icon={faReply} style={{ width: 30, height: 30}}/></span>API Integration</li>
+                            <li class="move"><span><FontAwesomeIcon icon={faCompress} style={{ width: 30, height: 30}}/></span>Responsive Web Design</li>
+                            <li class="move"><span><FontAwesomeIcon icon={faMobileAlt} style={{ width: 30, height: 30}}/></span>Mobile App Prototyping</li>
                         </ul>
                     </Bounce>
                 </div>
-
-                <Fade>
-                    <h2>Education</h2>
-                </Fade>
+                    
 
                 <Fade>
                     <div id="edu">
+                        <h2>Education</h2>
                         <div id="itt">
                             <h3>Institute Of Technology Tralee <span>(2015 - 2017)</span></h3>
                             <h4>Dromthacker, Tralee, Co. Kerry.</h4>
@@ -55,7 +53,7 @@ class Skills extends Component {
                             <h3>Dublin Institute Of Design <span>(2017-2019)</span></h3>
                             <h4>45 Kildare Street, Dublin 2, Dublin City.</h4>
                             <ul>
-                                <li>Part-Time Web Development as a two-year course (Higher Level Diploma NFQ Level 6).</li>
+                                <li>Part-Time Web Development as a two-year course (Higher National Diploma NFQ Level 6).</li>
                                 <li>Studied HTML, CSS, JQuery, JavaScript, UX & UI Design, Node JS, React, API Integration, Responsive Web Design, Mobile App Prototyping.</li>
                                 <li>Additionally studied Digital Marketing, research, and Graphic Design.</li>
                             </ul>

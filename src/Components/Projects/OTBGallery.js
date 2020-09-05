@@ -3,8 +3,19 @@ import { SRLWrapper } from "simple-react-lightbox";
 import './gallery.css'
 
     function OTBImages() {
+        document.title='Over The Bump Mobile App';
     return (
         
+        <div id="projectStyle">
+            <p>This project involved me to come up with an idea for a unique mobile app that serves a 
+            specific need or problem. Following that, I was then required to develop user personas, competitos analysis, 
+            carry our user interviews and surveys, sketches, userflows and wireflows, and wireframes for the app. Once 
+            that had been completed I began the design process for the app, giving it the name "Over The Bump", and 
+            evaluating inpirations for its design, the app's logo, the apps colour scheme, typography and imagery used, 
+            and eventually building a minimal viable product of the app by creating an interactive prototype of the app 
+            using InVision and carrying out user testing in order to recieve feedback. Finally, I created a specifications 
+            document detailing the whole process from beginning to end, listing my findings and decisions.</p>
+            
             <SRLWrapper>
             <div id="gallery">
                 <a href="images/artist/abmm.jpg" data-attribute="SRL">
@@ -20,8 +31,9 @@ import './gallery.css'
                     <img src="/images/artist/artist_battle.jpg" alt="Spotify Battle App Demo" />
                 </a>
             </div>
-            </SRLWrapper> 
 
+            </SRLWrapper> 
+        </div>
     );
 }
 

@@ -3,25 +3,35 @@ import { SRLWrapper } from "simple-react-lightbox";
 import './gallery.css'
 
     function MSAImages() {
+        document.title='Movie Search API';
     return (
         
+        <div id="projectStyle">
+            <p>This college project required me to create a single page application through the React JS 
+            framework that would fetch information from an API of my own choosing and display the data in an orderly 
+            fashion. I chose to access a movie database to fetch the information, and to then display it and feature a 
+            header photo, the title of the movie, the year of the movie's release and its rating.</p>
+            
             <SRLWrapper>
                 <div id="gallery">
-                    <a /*Main Image*/href="images/artist/abmm.jpg" data-attribute="SRL">
-                        <img /*Thumbnail*/src="images/artist/abmm_s.jpg" alt="Spotify Battle App mindmap" />
+                    <a /*Main Image*/href="images/movie/wf.jpg" data-attribute="SRL">
+                        <img /*Thumbnail*/src="images/movie/wf_s.jpg" alt="Movie Search App wireframe."/>
                     </a>
-                    <a href="images/artist/app_wireframe.png" data-attribute="SRL">
-                        <img src="/images/artist/app_wireframe_s.jpg" alt="App wireframe" />
+                    <a href="images/movie/display_f.jpg" data-attribute="SRL">
+                        <img src="/images/movie/display.jpg" alt="Movie Search App initial appearance." />
                     </a>
-                    <a href="images/artist/login.png" data-attribute="SRL">
-                        <img src="/images/artist/login_s.jpg" alt="App login" />
-                    </a>
-                    <a href="images/artist/battle3.png" data-attribute="SRL">
-                        <img src="/images/artist/artist_battle.jpg" alt="Spotify Battle App Demo" />
+                    <a href="images/movie/search.jpg" data-attribute="SRL">
+                        <img src="/images/movie/search_s.jpg" alt="Movie Search App search results." />
                     </a>
                 </div>
+
+                <div id="links">
+                    <a href="https://github.com/CoreyDennison/React_Project">Source code on GitHub.</a>
+                    <a href="https://coreydennison.wordpress.com/2019/03/17/react-s-p-a/">Learn more at my WordPress blog post on this project.</a>
+                    <a href="https://moviesearchapp-reactjs.herokuapp.com/">Launch this project with Heroku.</a>
+                </div>
             </SRLWrapper> 
-        
+        </div>
     );
 }
 

@@ -4,7 +4,15 @@ import { SRLWrapper } from "simple-react-lightbox";
 import './gallery.css'
 
     function JOCImages() {
+    document.title="Joy Of Chá";
     return (
+
+        <div id="projectStyle">
+            <p>As part of my 1st Year at Dublin Institute of Design, I was tasked to locate a business of my chosing 
+            in the Temple Bar district of Dublin City and rebrand their idenity with a logo and website of my own 
+            design. This project required me to experiment with logos, colour schemes, layouts, and create wireframes 
+            and mock-ups, as well as a vast amount of research on competitors and ways of promoting the business, 
+            such as though SEOs, email campaigns, social media and advertising.</p>
         
             <SRLWrapper>
             <div id="gallery">
@@ -27,12 +35,10 @@ import './gallery.css'
 
             <div id="links">
                 <a href="https://github.com/CoreyDennison/theJoyOfCha">Source code on GitHub.</a>
-                <a href="https://github.com/CoreyDennison/theJoyOfCha">Source code on GitHub.</a>
-                <a href="https://github.com/CoreyDennison/theJoyOfCha">Source code on GitHub.</a>
-                <a href="https://github.com/CoreyDennison/theJoyOfCha">Source code on GitHub.</a>
             </div>
-
             </SRLWrapper> 
+
+        </div>
 
 
 

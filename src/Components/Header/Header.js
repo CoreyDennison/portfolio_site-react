@@ -23,7 +23,7 @@ class Header extends Component {
                     <h5 className="header3">Nice to meet you!</h5>
                 </div>
 
-                <img src={header_image} width="800px" height="350px"/>
+                <img src={header_image} alt="projects on devices."/>
 
                 <div id="aboutMe">
                     <h2>About Me</h2>
