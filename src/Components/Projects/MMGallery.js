@@ -1,11 +1,12 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 import { SRLWrapper } from "simple-react-lightbox";
 import './gallery.css'
 
     function MMImages() {
         document.title='Mac Motors Database';
     return (
-        
+        <Fade>
         <div id="projectStyle">
             <p>This personal project saw me creating a establishing a car dealership database, which 
             involved creating an Entity Relationship diagram in order to define the relationships between tables, their 
@@ -17,25 +18,44 @@ import './gallery.css'
             
             <SRLWrapper>
             <div id="gallery">
-                <a /*Main Image*/href="images/artist/abmm.jpg" data-attribute="SRL">
-                    <img /*Thumbnail*/src="images/artist/abmm_s.jpg" alt="Spotify Battle App mindmap" />
+                <a /*Main Image*/href="images/mm/entity_diagram.jpg " data-attribute="SRL">
+                    <img /*Thumbnail*/src="images/mm/entity_diagram_s.jpg" alt="Database Entity Diagram"/>
                 </a>
-                <a href="images/artist/app_wireframe.png" data-attribute="SRL">
-                    <img src="/images/artist/app_wireframe_s.jpg" alt="App wireframe" />
+                <a href="images/mm/entity_diagram2.png" data-attribute="SRL" className="hidden">
+                    <img src="images/mm/entity_diagram2.png" alt="Simplified Entity Diagram"/>
                 </a>
-                <a href="images/artist/login.png" data-attribute="SRL">
-                    <img src="/images/artist/login_s.jpg" alt="App login" />
+                <a href="images/mm/drop_down_desktop.png" data-attribute="SRL">
+                    <img src="images/mm/drop_down_s.jpg" alt="Mac Motors Homepage" />
                 </a>
-                <a href="images/artist/battle3.png" data-attribute="SRL">
-                    <img src="/images/artist/artist_battle.jpg" alt="Spotify Battle App Demo" />
+                <a href="images/mm/hamburger_dropdown.jpg" data-attribute="SRL" className="hidden">
+                    <img src="images/mm/hamburger_dropdown.jpg" alt="Hamburger Dropdown Menu" />
+                </a>
+                <a href="images/mm/selectAllcode.png" data-attribute="SRL">
+                    <img src="images/mm/selectAllcode_s.png" alt="PHP code to select and display all employees" />
+                </a>
+                <a href="images/mm/viewAll.png" data-attribute="SRL">
+                    <img src="images/mm/viewAll_s.png" alt="Output of select all employees code" />
+                </a>
+                <a href="images/mm/addEmployee.png" data-attribute="SRL">
+                    <img src="images/mm/addEmployee_s.png" alt="Add employee table." />
+                </a>
+                <a href="images/mm/addEmployee_responsive.png" data-attribute="SRL" className="hidden" >
+                    <img src="images/mm/addEmployee_responsive.png" alt="Add employee table responsive." />
                 </a>
             </div>
 
+            <div id="video">
+                <h3>Mac Motors Car Dealership Database demo.</h3>
+                <iframe src="https://www.youtube.com/embed/26Fg4ZxeZLQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0"></iframe>
+            </div>
+
             <div id="links">
-                <a href="https://github.com/CoreyDennison/theJoyOfCha">Source code on GitHub.</a>
+                <a href="https://github.com/CoreyDennison/Car-Dealership-w-SQL-php">Project source code on GitHub.</a>
+                <a href="https://coreydennison.wordpress.com/2020/06/22/car-dealership-database/">Wordpress Blog article on this project.</a>
             </div>
             </SRLWrapper> 
         </div>
+        </Fade>
     );
 }
 

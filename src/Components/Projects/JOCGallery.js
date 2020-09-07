@@ -1,4 +1,5 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 // Import SRLWrapper
 import { SRLWrapper } from "simple-react-lightbox";
 import './gallery.css'
@@ -7,6 +8,7 @@ import './gallery.css'
     document.title="Joy Of Chá";
     return (
 
+        <Fade>
         <div id="projectStyle">
             <p>As part of my 1st Year at Dublin Institute of Design, I was tasked to locate a business of my chosing 
             in the Temple Bar district of Dublin City and rebrand their idenity with a logo and website of my own 
@@ -39,6 +41,7 @@ import './gallery.css'
             </SRLWrapper> 
 
         </div>
+        </Fade>
 
 
 

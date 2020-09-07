@@ -1,11 +1,12 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 import { SRLWrapper } from "simple-react-lightbox";
 import './gallery.css'
 
     function SBAImages() {
         document.title='Spotify API battle';
     return (
-
+        <Fade>
         <div id="projectStyle">
             <p>For this project, I was tasked with developing and app with Node JS which compared two artists 
             of the user's choosing and judged them on specific criteria, such as the popularity, followers, number of songs,
@@ -39,6 +40,7 @@ import './gallery.css'
             </div>
             </SRLWrapper> 
         </div>
+        </Fade>
     );
 }
 

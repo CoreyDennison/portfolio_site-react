@@ -40,14 +40,14 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: -40px;
 }
 
 /*------------------ "ITT" Section ----------------*/
 #itt {
-    margin-left: 30px;
+    margin-left: -150px;
+    margin-top: 150px;
     width: 45%;
-    margin-right: 50px;
-    margin-bottom: 50px;
 }
 
 #itt h3 {
@@ -86,6 +86,7 @@
 #did {
     width: 45%;
     margin-left: 30px;
+    margin-top: 150px;
 }
 
 #did h3 {
@@ -171,8 +172,10 @@
 
     #itt {
         width: 90%;
+        margin-left: 30px;
+        margin-top: 0px;
         padding-right: 30px;
-        margin-bottom: 20px;
+        margin-bottom: -140px;
     }
 
     #did {
@@ -217,7 +220,7 @@
 
 @media only screen and (max-width: 420px){
     #edu h2 {
-        margin-top: 30px !important;
+        margin-top: 60px !important;
         margin-left: 20px;
     }
     

@@ -1,4 +1,5 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 import { SRLWrapper } from "simple-react-lightbox";
 import './gallery.css'
 
@@ -6,6 +7,7 @@ import './gallery.css'
         document.title='Movie Search API';
     return (
         
+        <Fade>
         <div id="projectStyle">
             <p>This college project required me to create a single page application through the React JS 
             framework that would fetch information from an API of my own choosing and display the data in an orderly 
@@ -32,6 +34,7 @@ import './gallery.css'
                 </div>
             </SRLWrapper> 
         </div>
+        </Fade>
     );
 }
 

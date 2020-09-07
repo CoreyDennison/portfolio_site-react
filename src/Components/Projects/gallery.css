@@ -39,6 +39,22 @@
     text-decoration: underline;
 }
 
+#video h3 {
+    color: white;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+#video iframe {
+    width: 90%;
+    height: 450px;
+    border: 3px solid #79cdcf;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+
 /*--------------- Gallery Responsiveness --------------*/
 @media only screen and (max-width: 600px) {
 
@@ -54,6 +70,7 @@
     #gallery a img {
         width: 150px;
         height: 150px;
+        margin-bottom: 0px;
     }
 
     #projectStyle p {
@@ -71,3 +88,31 @@
         color: paleturquoise;
     }
 }
+/*--------------- Gallery Responsiveness End --------------*/
+
+/*--------------- Video Responsiveness --------------*/
+@media only screen and (max-width: 900px){
+    #video iframe {
+        margin-left: 30px;
+        height: 50vw;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    #video h3 {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 420px){ 
+    #video h3 {
+        font-size: 18px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    #video iframe {
+        margin-left: 20px;
+    }
+}
+/*--------------- Video Responsiveness End --------------*/

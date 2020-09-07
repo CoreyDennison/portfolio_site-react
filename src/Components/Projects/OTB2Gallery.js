@@ -1,10 +1,11 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 import { SRLWrapper } from "simple-react-lightbox";
 import './gallery.css'
 
     function OTB2Images() {
     return (
-        
+        <Fade>
         <div id="projectStyle">
             <p>Once Over The Bump had been developed, I was then tasked with a new project which involved establishing a 
             marketing campaign for the app. For this, I analysed previous marketing campaigns with similar motivations to the Over The Bump 
@@ -17,17 +18,32 @@ import './gallery.css'
             
             <SRLWrapper>
             <div id="gallery">
-                <a href="images/artist/abmm.jpg" data-attribute="SRL">
-                    <img src="images/artist/abmm_s.jpg" alt="Spotify Battle App mindmap" />
+            <a href="images/otb/rollout.jpg" data-attribute="SRL">
+                    <img src="images/otb/rollout_s.jpg" alt="Over The Bump App Ad rollouts"/>
                 </a>
-                <a href="images/artist/app_wireframe.png" data-attribute="SRL">
-                    <img src="/images/artist/app_wireframe_s.jpg" alt="App wireframe" />
+                <a href="images/otb/facebook_ad.jpg" data-attribute="SRL">
+                    <img src="images/otb/ad_s.jpg" alt="Over The Bump Facebook Ad template"/>
                 </a>
-                <a href="images/artist/login.png" data-attribute="SRL">
-                    <img src="/images/artist/login_s.jpg" alt="App login" />
+                <a href="images/otb/insta_ad.jpg" data-attribute="SRL" className="hidden" >
+                    <img src="/images/otb/insta_ad.jpg" alt="Over The Bump Instagram Ad template"/>
                 </a>
-                <a href="images/artist/battle3.png" data-attribute="SRL">
-                    <img src="/images/artist/artist_battle.jpg" alt="Spotify Battle App Demo" />
+                <a href="images/otb/ad1.jpg" data-attribute="SRL">
+                    <img src="/images/otb/fad_s.jpg" alt="College Course Facebook Ad 1" />
+                </a>
+                <a href="images/otb/ad2.jpg" data-attribute="SRL" className="hidden" >
+                    <img src="/images/otb/ad2.jpg" alt="College Course Facebook Ad 2" />
+                </a>
+                <a href="images/otb/ad3.jpg" data-attribute="SRL" className="hidden" >
+                    <img src="/images/otb/ad3.jpg" alt="College Course Facebook Ad 3" />
+                </a>
+                <a href="images/otb/ad3Replace.jpg" data-attribute="SRL" className="hidden" >
+                    <img src="/images/otb/ad3Replace.jpg" alt="College Course Facebook Ad 3 replacement" />
+                </a>
+                <a href="images/otb/mo.jpg" data-attribute="SRL">
+                    <img src="images/otb/mo_s.jpg" alt="College Course Ad Campain Marketing Objective"/>
+                </a>
+                <a href="images/otb/overall_engagement.jpg" data-attribute="SRL" className="hidden" >
+                    <img src="images/otb/overall_engagement.jpg" alt="Overall user interaction with College Course Facebook As Campain"/>
                 </a>
             </div>
 
@@ -39,6 +55,7 @@ import './gallery.css'
             </div>
             </SRLWrapper> 
         </div>
+        </Fade>
     );
 }
 
