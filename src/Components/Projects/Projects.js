@@ -83,7 +83,7 @@ class Projects extends Component {
   }
 
   openProjects(){
-    document.title='Welcome';
+    document.title='Corey Dennison';
     this.setState({
       title: 'Projects',
       projectTitle: '',
@@ -109,23 +109,28 @@ class Projects extends Component {
         <h2>{ this.state.projectTitle }</h2>
         <div className = 'projects' style={{display: this.state.setVisible ? null : 'none'}}>
 
-          <div className="joc_con" onClick={() => this.openProject1()}>           
+          <div className="joc_con" onClick={() => this.openProject1()}> 
+            <img src="./images/joc.jpg" width="100%" height="100%"/>         
             <p>The Joy Of Chá</p> 
           </div>
 
           <div className="spotify_con" onClick={() => this.openProject2()}>
+          <img src="./images/artist.jpg" width="100%" height="100%"/> 
             <p>Spotify Artist Battle</p>
           </div>
 
           <div className="movie_con" onClick={() => this.openProject3()}>
+          <img src="./images/display.jpg" width="100%" height="100%"/> 
             <p>Movie Search React App</p>
           </div>
 
           <div className="otb_con" onClick={() => this.openProject4()}>
+          <img src="./images/otb.jpg" width="100%" height="100%"/> 
             <p>Over The Bump Mobile App</p>
           </div>
 
           <div className="mm_con" onClick={() => this.openProject5()}>
+          <img src="./images/mm.jpg" width="100%" height="100%"/> 
             <p>Mac Motors Database</p>
           </div>
 

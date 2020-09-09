@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Slide from 'react-reveal/Slide';
 import Bounce from 'react-reveal/Bounce';
 import Fade from 'react-reveal/Fade';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -28,7 +27,7 @@ class Skills extends Component {
                             <li><span><FontAwesomeIcon icon={faNode} style={{ width: 40, height: 40}}/></span><p>Node</p></li>
                             <li><span><FontAwesomeIcon icon={faPhp} style={{ width: 30, height: 30}}/></span>PHP</li>
                             <li><span><FontAwesomeIcon icon={faDatabase} style={{ width: 30, height: 30}}/></span>SQL</li>
-                            <li><span><FontAwesomeIcon icon={faUserCog} style={{ width: 30, height: 30}}/></span>UX / UI Design</li>
+                            <li class="ux"><span><FontAwesomeIcon icon={faUserCog} style={{ width: 30, height: 30}}/></span>UX / UI Design</li>
                             <li class="move"><span><FontAwesomeIcon icon={faReply} style={{ width: 30, height: 30}}/></span>API Integration</li>
                             <li class="move"><span><FontAwesomeIcon icon={faCompress} style={{ width: 30, height: 30}}/></span>Responsive Web Design</li>
                             <li class="move"><span><FontAwesomeIcon icon={faMobileAlt} style={{ width: 30, height: 30}}/></span>Mobile App Prototyping</li>

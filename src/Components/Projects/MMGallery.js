@@ -18,29 +18,29 @@ import './gallery.css'
             
             <SRLWrapper>
             <div id="gallery">
-                <a /*Main Image*/href="images/mm/entity_diagram.jpg " data-attribute="SRL">
-                    <img /*Thumbnail*/src="images/mm/entity_diagram_s.jpg" alt="Database Entity Diagram"/>
+                <a /*Main Image*/href="./images/mm/entity_diagram.jpg " data-attribute="SRL">
+                    <img /*Thumbnail*/src="./images/mm/entity_diagram_s.jpg" alt="Database Entity Diagram"/>
                 </a>
-                <a href="images/mm/entity_diagram2.png" data-attribute="SRL" className="hidden">
-                    <img src="images/mm/entity_diagram2.png" alt="Simplified Entity Diagram"/>
+                <a href="./images/mm/entity_diagram2.png" data-attribute="SRL" className="hidden">
+                    <img src="./images/mm/entity_diagram2.png" alt="Simplified Entity Diagram"/>
                 </a>
-                <a href="images/mm/drop_down_desktop.png" data-attribute="SRL">
+                <a href="./images/mm/drop_down_desktop.png" data-attribute="SRL">
                     <img src="images/mm/drop_down_s.jpg" alt="Mac Motors Homepage" />
                 </a>
-                <a href="images/mm/hamburger_dropdown.jpg" data-attribute="SRL" className="hidden">
-                    <img src="images/mm/hamburger_dropdown.jpg" alt="Hamburger Dropdown Menu" />
+                <a href="./images/mm/hamburger_dropdown.jpg" data-attribute="SRL" className="hidden">
+                    <img src="./images/mm/hamburger_dropdown.jpg" alt="Hamburger Dropdown Menu" />
                 </a>
-                <a href="images/mm/selectAllcode.png" data-attribute="SRL">
-                    <img src="images/mm/selectAllcode_s.png" alt="PHP code to select and display all employees" />
+                <a href="./images/mm/selectAllcode.png" data-attribute="SRL">
+                    <img src="./images/mm/selectAllcode_s.png" alt="PHP code to select and display all employees" />
                 </a>
-                <a href="images/mm/viewAll.png" data-attribute="SRL">
-                    <img src="images/mm/viewAll_s.png" alt="Output of select all employees code" />
+                <a href="./images/mm/viewAll.png" data-attribute="SRL">
+                    <img src="./images/mm/viewAll_s.png" alt="Output of select all employees code" />
                 </a>
-                <a href="images/mm/addEmployee.png" data-attribute="SRL">
+                <a href="./images/mm/addEmployee.png" data-attribute="SRL">
                     <img src="images/mm/addEmployee_s.png" alt="Add employee table." />
                 </a>
-                <a href="images/mm/addEmployee_responsive.png" data-attribute="SRL" className="hidden" >
-                    <img src="images/mm/addEmployee_responsive.png" alt="Add employee table responsive." />
+                <a href="./images/mm/addEmployee_responsive.png" data-attribute="SRL" className="hidden" >
+                    <img src="./images/mm/addEmployee_responsive.png" alt="Add employee table responsive." />
                 </a>
             </div>
 
@@ -50,8 +50,8 @@ import './gallery.css'
             </div>
 
             <div id="links">
-                <a href="https://github.com/CoreyDennison/Car-Dealership-w-SQL-php">Project source code on GitHub.</a>
-                <a href="https://coreydennison.wordpress.com/2020/06/22/car-dealership-database/">Wordpress Blog article on this project.</a>
+                <a href="https://github.com/CoreyDennison/Car-Dealership-w-SQL-php" target="_blank">Project source code on GitHub.</a>
+                <a href="https://coreydennison.wordpress.com/2020/06/22/car-dealership-database/" target="_blank">Wordpress Blog article on this project.</a>
             </div>
             </SRLWrapper> 
         </div>

@@ -53,20 +53,21 @@ h2 {
     border-radius: 10px;
     width: 250px;
     height: 250px;
-    background-image: url("./images/joc.jpg");
-    background-size: contain;
+}
+.projects .joc_con img {
+    border-radius: 8px;
 }
 
 .projects .joc_con p {
     color: white;
     font-size: 22px;
     background-color: #79cdcf;
-    margin-top: 0px;
+    margin-top: -255px;
     margin-left: -2px;
     margin-right: -2px;
-    padding-top: 111px;
+    padding-top: 112px;
     padding-left: 50px;
-    padding-bottom: 109.5px;
+    padding-bottom: 111px;
     border-radius: 10px;
     opacity: 0;
 }
@@ -88,20 +89,22 @@ h2 {
     border-radius: 10px;
     width: 250px;
     height: 250px;
-    background-image: url("./images/artist.jpg");
-    background-size: contain;
+}
+
+.projects .spotify_con img {
+    border-radius: 8px;
 }
 
 .projects .spotify_con p {
     color: white;
     font-size: 22px;
     background-color: #79cdcf;
-    margin-top: 0px;
+    margin-top: -255px;
     margin-left: -2px;
     margin-right: -2px;
-    padding-top: 111px;
+    padding-top: 112px;
     padding-left: 35px;
-    padding-bottom: 109.5px;
+    padding-bottom: 111px;
     border-radius: 10px;
     opacity: 0;
 }
@@ -123,8 +126,10 @@ h2 {
     border-radius: 10px;
     width: 250px;
     height: 250px;
-    background-image: url("./images/display.jpg");
-    background-size: cover;
+}
+
+.projects .movie_con img {
+    border-radius: 8px;
 }
 
 .projects .movie_con p {
@@ -132,13 +137,13 @@ h2 {
     font-size: 22px;
     text-align: center;
     background-color: #79cdcf;
-    margin-top: 0px;
+    margin-top: -255px;
     margin-left: -3px;
     margin-right: -3px;
-    padding-top: 100px;
+    padding-top: 101px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 91px;
+    padding-bottom: 93px;
     border-radius: 10px;
     opacity: 0;
 }
@@ -160,8 +165,10 @@ h2 {
     border-radius: 10px;
     width: 250px;
     height: 250px;
-    background-image: url("./images/otb.jpg");
-    background-size: cover;
+}
+
+.projects .otb_con img {
+    border-radius: 8px;
 }
 
 .projects .otb_con p {
@@ -169,13 +176,13 @@ h2 {
     font-size: 22px;
     text-align: center;
     background-color: #79cdcf;
-    margin-top: 0px;
+    margin-top: -255px;
     margin-left: -2px;
     margin-right: -2px;
     padding-top: 100px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 92px;
+    padding-bottom: 93px;
     border-radius: 10px;
     opacity: 0;
 }
@@ -197,20 +204,22 @@ h2 {
     border-radius: 10px;
     width: 250px;
     height: 250px;
-    background-image: url("./images/mm.jpg");
-    background-size: cover;
+}
+
+.projects .mm_con img {
+    border-radius: 8px;
 }
 
 .projects .mm_con p {
     color: white;
     font-size: 22px;
     background-color: #79cdcf;
-    margin-top: 0px;
+    margin-top: -255px;
     margin-left: -2px;
     margin-right: -2px;
-    padding-top: 111px;
+    padding-top: 112px;
     padding-left: 20px;
-    padding-bottom: 109.5px;
+    padding-bottom: 111px;
     border-radius: 10px;
     opacity: 0;
 }
@@ -233,14 +242,25 @@ h2 {
         height: 200px;
     }
 
+    .projects .joc_con img {
+        width: 200px;
+        height: 200px;
+    }
+
     .projects .joc_con p {
         font-size: 20px;
         padding-bottom: 84px;
         padding-left: 35px;
         padding-top: 90px;
+        margin-top: -204px;
     }
 
     .projects .spotify_con {
+        width: 200px;
+        height: 200px;
+    }
+
+    .projects .spotify_con img {
         width: 200px;
         height: 200px;
     }
@@ -250,9 +270,15 @@ h2 {
         padding-bottom: 84px;
         padding-left: 20px;
         padding-top: 90px;
+        margin-top: -204px;
     }
 
     .projects .movie_con {
+        width: 200px;
+        height: 200px;
+    }
+
+    .projects .movie_con img {
         width: 200px;
         height: 200px;
     }
@@ -262,9 +288,15 @@ h2 {
         padding-bottom: 78px;
         padding-left: 20px;
         padding-top: 70px;
+        margin-top: -204px;
     }
 
     .projects .otb_con {
+        width: 200px;
+        height: 200px;
+    }
+
+    .projects .otb_con img {
         width: 200px;
         height: 200px;
     }
@@ -274,9 +306,15 @@ h2 {
         padding-bottom: 78px;
         padding-left: 20px;
         padding-top: 70px;
+        margin-top: -204px;
     }
 
     .projects .mm_con {
+        width: 200px;
+        height: 200px;
+    }
+
+    .projects .mm_con img {
         width: 200px;
         height: 200px;
     }
@@ -286,6 +324,7 @@ h2 {
         padding-bottom: 78px;
         padding-left: 10px;
         padding-top: 70px;
+        margin-top: -204px;
         text-align: center;
     }
 
@@ -304,6 +343,31 @@ h2 {
     }
 
     .projects .joc_con, .spotify_con, .movie_con, .otb_con, .mm_con {
+        width: 150px !important;
+        height: 150px !important;
+    }
+
+    .projects .joc_con img {
+        width: 150px !important;
+        height: 150px !important;
+    }
+
+    .projects .spotify_con img {
+        width: 150px !important;
+        height: 150px !important;
+    }
+
+    .projects .movie_con img {
+        width: 150px !important;
+        height: 150px !important;
+    }
+
+    .projects .otb_con img {
+        width: 150px !important;
+        height: 150px !important;
+    }
+
+    .projects .mm_con img {
         width: 150px !important;
         height: 150px !important;
     }

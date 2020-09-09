@@ -18,40 +18,40 @@ import './gallery.css'
             
             <SRLWrapper>
             <div id="gallery">
-            <a href="images/otb/rollout.jpg" data-attribute="SRL">
-                    <img src="images/otb/rollout_s.jpg" alt="Over The Bump App Ad rollouts"/>
+            <a href="./images/otb/rollout.jpg" data-attribute="SRL">
+                    <img src="./images/otb/rollout_s.jpg" alt="Over The Bump App Ad rollouts"/>
                 </a>
-                <a href="images/otb/facebook_ad.jpg" data-attribute="SRL">
-                    <img src="images/otb/ad_s.jpg" alt="Over The Bump Facebook Ad template"/>
+                <a href="./images/otb/facebook_ad.jpg" data-attribute="SRL">
+                    <img src="./images/otb/ad_s.jpg" alt="Over The Bump Facebook Ad template"/>
                 </a>
-                <a href="images/otb/insta_ad.jpg" data-attribute="SRL" className="hidden" >
-                    <img src="/images/otb/insta_ad.jpg" alt="Over The Bump Instagram Ad template"/>
+                <a href="./images/otb/insta_ad.jpg" data-attribute="SRL" className="hidden" >
+                    <img src="./images/otb/insta_ad.jpg" alt="Over The Bump Instagram Ad template"/>
                 </a>
-                <a href="images/otb/ad1.jpg" data-attribute="SRL">
-                    <img src="/images/otb/fad_s.jpg" alt="College Course Facebook Ad 1" />
+                <a href="./images/otb/ad1.jpg" data-attribute="SRL">
+                    <img src="./images/otb/fad_s.jpg" alt="College Course Facebook Ad 1" />
                 </a>
-                <a href="images/otb/ad2.jpg" data-attribute="SRL" className="hidden" >
-                    <img src="/images/otb/ad2.jpg" alt="College Course Facebook Ad 2" />
+                <a href="./images/otb/ad2.jpg" data-attribute="SRL" className="hidden" >
+                    <img src="./images/otb/ad2.jpg" alt="College Course Facebook Ad 2" />
                 </a>
-                <a href="images/otb/ad3.jpg" data-attribute="SRL" className="hidden" >
-                    <img src="/images/otb/ad3.jpg" alt="College Course Facebook Ad 3" />
+                <a href="./images/otb/ad3.jpg" data-attribute="SRL" className="hidden" >
+                    <img src="./images/otb/ad3.jpg" alt="College Course Facebook Ad 3" />
                 </a>
-                <a href="images/otb/ad3Replace.jpg" data-attribute="SRL" className="hidden" >
-                    <img src="/images/otb/ad3Replace.jpg" alt="College Course Facebook Ad 3 replacement" />
+                <a href="./images/otb/ad3Replace.jpg" data-attribute="SRL" className="hidden" >
+                    <img src="./images/otb/ad3Replace.jpg" alt="College Course Facebook Ad 3 replacement" />
                 </a>
-                <a href="images/otb/mo.jpg" data-attribute="SRL">
-                    <img src="images/otb/mo_s.jpg" alt="College Course Ad Campain Marketing Objective"/>
+                <a href="./images/otb/mo.jpg" data-attribute="SRL">
+                    <img src="./images/otb/mo_s.jpg" alt="College Course Ad Campain Marketing Objective"/>
                 </a>
-                <a href="images/otb/overall_engagement.jpg" data-attribute="SRL" className="hidden" >
-                    <img src="images/otb/overall_engagement.jpg" alt="Overall user interaction with College Course Facebook As Campain"/>
+                <a href="./images/otb/overall_engagement.jpg" data-attribute="SRL" className="hidden" >
+                    <img src="./images/otb/overall_engagement.jpg" alt="Overall user interaction with College Course Facebook As Campain"/>
                 </a>
             </div>
 
             <div id="links">
-                    <a href="https://coreydennison.wordpress.com/2019/03/31/app-design-and-prototyping">Wordpress blog post on the Over The Bump app design and prototyping process.</a>
-                    <a href="https://coreydennison.wordpress.com/2019/04/11/app-marketing-research/">Wordpress blog post on the app marketing research.</a>
-                    <a href="https://coreydennison.wordpress.com/2019/05/17/social-media-campaign/">Wordpress blog post on Facebook marketing research.</a>
-                    <a href="https://projects.invisionapp.com/share/7AU5KFJEURN#/screens">Over The Bump InVision Prototype (zoom web browser page out).</a>
+                    <a href="https://coreydennison.wordpress.com/2019/03/31/app-design-and-prototyping" target="_blank">Wordpress blog post on the Over The Bump app design and prototyping process.</a>
+                    <a href="https://coreydennison.wordpress.com/2019/04/11/app-marketing-research/" target="_blank">Wordpress blog post on the app marketing research.</a>
+                    <a href="https://coreydennison.wordpress.com/2019/05/17/social-media-campaign/" target="_blank">Wordpress blog post on Facebook marketing research.</a>
+                    <a href="https://projects.invisionapp.com/share/7AU5KFJEURN#/screens" target="_blank">Over The Bump InVision Prototype (zoom web browser page out).</a>
             </div>
             </SRLWrapper> 
         </div>

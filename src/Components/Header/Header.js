@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import header_image from './apps_greybg.jpg'
 import './header.css';
 
 class Header extends Component {
@@ -23,7 +22,7 @@ class Header extends Component {
                     <h5 className="header3">Nice to meet you!</h5>
                 </div>
 
-                <img src={header_image} alt="projects on devices."/>
+                <img src="./images/apps_greybg.jpg" alt="projects on devices."/>
 
                 <div id="aboutMe">
                     <h2>About Me</h2>

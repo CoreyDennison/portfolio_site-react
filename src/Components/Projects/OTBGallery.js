@@ -20,32 +20,32 @@ import './gallery.css'
             
             <SRLWrapper>
             <div id="gallery">
-                <a href="images/otb/otb.jpg" data-attribute="SRL">
-                    <img src="images/otb/otb_s.jpg" alt="Over The Bump Logo"/>
+                <a href="./images/otb/otb.jpg" data-attribute="SRL">
+                    <img src="./images/otb/otb_s.jpg" alt="Over The Bump Logo"/>
                 </a>
-                <a href="images/otb/brigid_empathy.jpg" data-attribute="SRL">
-                    <img src="/images/otb/empathy_s.jpg" alt="Brigid Crowley user empathy diagram" />
+                <a href="./images/otb/brigid_empathy.jpg" data-attribute="SRL">
+                    <img src="./images/otb/empathy_s.jpg" alt="Brigid Crowley user empathy diagram" />
                 </a>
-                <a href="images/otb/brigid_up.jpg" data-attribute="SRL" className="hidden" >
-                    <img src="/images/otb/brigid_up.jpg" alt="Brigid Crowley user persona" />
+                <a href="./images/otb/brigid_up.jpg" data-attribute="SRL" className="hidden" >
+                    <img src="./images/otb/brigid_up.jpg" alt="Brigid Crowley user persona" />
                 </a>
-                <a href="images/otb/sd1_3_22.jpg" data-attribute="SRL">
-                    <img src="/images/otb/sd_s.jpg" alt="Specification Document Page 3 of 22" />
+                <a href="./images/otb/sd1_3_22.jpg" data-attribute="SRL">
+                    <img src="./images/otb/sd_s.jpg" alt="Specification Document Page 3 of 22" />
                 </a>
-                <a href="images/otb/sd2_4_22.jpg" data-attribute="SRL" className="hidden" >
-                    <img src="/images/otb/sd2_4_22.jpg" alt="Specification Document Page 4 of 22" />
+                <a href="./images/otb/sd2_4_22.jpg" data-attribute="SRL" className="hidden" >
+                    <img src="./images/otb/sd2_4_22.jpg" alt="Specification Document Page 4 of 22" />
                 </a>
-                <a href="images/otb/sd3_5_22.jpg" data-attribute="SRL" className="hidden" >
-                    <img src="/images/otb/sd3_5_22.jpg" alt="Specification Document Page 5 of 22" />
+                <a href="./images/otb/sd3_5_22.jpg" data-attribute="SRL" className="hidden" >
+                    <img src="./images/otb/sd3_5_22.jpg" alt="Specification Document Page 5 of 22" />
                 </a>
-                <a href="images/otb/home.jpg" data-attribute="SRL">
-                    <img src="/images/otb/home_s.jpg" alt="Specification Document Page 5 of 22" />
+                <a href="./images/otb/home.jpg" data-attribute="SRL">
+                    <img src="./images/otb/home_s.jpg" alt="Specification Document Page 5 of 22" />
                 </a>
-                <a href="images/otb/records.jpg" data-attribute="SRL" className="hidden" >
-                    <img src="/images/otb/records.jpg" alt="Specification Document Page 5 of 22" />
+                <a href="./images/otb/records.jpg" data-attribute="SRL" className="hidden" >
+                    <img src="./images/otb/records.jpg" alt="Specification Document Page 5 of 22" />
                 </a>
-                <a href="images/otb/calendar.jpg" data-attribute="SRL" className="hidden" >
-                    <img src="/images/otb/calendar.jpg" alt="Specification Document Page 5 of 22" />
+                <a href="./images/otb/calendar.jpg" data-attribute="SRL" className="hidden" >
+                    <img src="./images/otb/calendar.jpg" alt="Specification Document Page 5 of 22" />
                 </a>
             </div>
             </SRLWrapper> 

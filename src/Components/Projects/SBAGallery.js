@@ -16,27 +16,27 @@ import './gallery.css'
 
             <SRLWrapper>
             <div id="gallery">
-                <a href="images/artist/abmm.jpg" data-attribute="SRL">
-                    <img src="images/artist/abmm_s.jpg" alt="Spotify Battle App mindmap" />
+                <a href="./images/artist/abmm.jpg" data-attribute="SRL">
+                    <img src="./images/artist/abmm_s.jpg" alt="Spotify Battle App mindmap" />
                 </a>
-                <a href="images/artist/app_wireframe.png" data-attribute="SRL">
-                    <img src="/images/artist/app_wireframe_s.jpg" alt="App wireframe" />
+                <a href="./images/artist/app_wireframe.png" data-attribute="SRL">
+                    <img src="./images/artist/app_wireframe_s.jpg" alt="App wireframe" />
                 </a>
-                <a href="images/artist/login.png" data-attribute="SRL">
-                    <img src="/images/artist/login_s.jpg" alt="App login" />
+                <a href="./images/artist/login.png" data-attribute="SRL">
+                    <img src="./images/artist/login_s.jpg" alt="App login" />
                 </a>
-                <a href="images/artist/battle3.png" data-attribute="SRL">
-                    <img src="/images/artist/artist_battle.jpg" alt="Spotify Battle App Demo" />
+                <a href="./images/artist/battle3.png" data-attribute="SRL">
+                    <img src="./images/artist/artist_battle.jpg" alt="Spotify Battle App Demo" />
                 </a>
             </div>
 
             <div id="links">
-                <a href="https://github.com/CoreyDennison/codingproject2018">Source code on GitHub.</a>
-                <a href="https://coreydennison.wordpress.com/2019/01/14/artist-battle-app/">Learn more at my WordPress blog post on this project.</a>
-                <a href="https://artistbattleapp.herokuapp.com/">Launch this project with Heroku.</a>
-                <a href="https://github.com/CoreyDennison/api_battle">Renewed verison using fetch API source code.</a>
-                <a href="https://coreydennison.wordpress.com/2019/12/05/artist-battle-app-take-two/">Learn more at my WordPress blog post on renewed version.</a>
-                <a href="https://apibattle.herokuapp.com/">Launch renewed version of the app with Heroku.</a>
+                <a href="https://github.com/CoreyDennison/codingproject2018" target="_blank">Source code on GitHub.</a>
+                <a href="https://coreydennison.wordpress.com/2019/01/14/artist-battle-app/" target="_blank">Learn more at my WordPress blog post on this project.</a>
+                <a href="https://artistbattleapp.herokuapp.com/" target="_blank">Launch this project with Heroku.</a>
+                <a href="https://github.com/CoreyDennison/api_battle" target="_blank">Renewed verison using fetch API source code.</a>
+                <a href="https://coreydennison.wordpress.com/2019/12/05/artist-battle-app-take-two/" target="_blank">Learn more at my WordPress blog post on renewed version.</a>
+                <a href="https://apibattle.herokuapp.com/" target="_blank">Launch renewed version of the app with Heroku.</a>
             </div>
             </SRLWrapper> 
         </div>

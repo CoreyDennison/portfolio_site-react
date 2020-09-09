@@ -16,21 +16,21 @@ import './gallery.css'
             
             <SRLWrapper>
                 <div id="gallery">
-                    <a /*Main Image*/href="images/movie/wf.jpg" data-attribute="SRL">
-                        <img /*Thumbnail*/src="images/movie/wf_s.jpg" alt="Movie Search App wireframe."/>
+                    <a /*Main Image*/href="./images/movie/wf.jpg" data-attribute="SRL">
+                        <img /*Thumbnail*/src="./images/movie/wf_s.jpg" alt="Movie Search App wireframe."/>
                     </a>
-                    <a href="images/movie/display_f.jpg" data-attribute="SRL">
-                        <img src="/images/movie/display.jpg" alt="Movie Search App initial appearance." />
+                    <a href="./images/movie/display_f.jpg" data-attribute="SRL">
+                        <img src="./images/movie/display.jpg" alt="Movie Search App initial appearance." />
                     </a>
-                    <a href="images/movie/search.jpg" data-attribute="SRL">
-                        <img src="/images/movie/search_s.jpg" alt="Movie Search App search results." />
+                    <a href="./images/movie/search.jpg" data-attribute="SRL">
+                        <img src="./images/movie/search_s.jpg" alt="Movie Search App search results." />
                     </a>
                 </div>
 
                 <div id="links">
-                    <a href="https://github.com/CoreyDennison/React_Project">Source code on GitHub.</a>
-                    <a href="https://coreydennison.wordpress.com/2019/03/17/react-s-p-a/">Learn more at my WordPress blog post on this project.</a>
-                    <a href="https://moviesearchapp-reactjs.herokuapp.com/">Launch this project with Heroku.</a>
+                    <a href="https://github.com/CoreyDennison/React_Project" target="_blank">Source code on GitHub.</a>
+                    <a href="https://coreydennison.wordpress.com/2019/03/17/react-s-p-a/" target="_blank">Learn more at my WordPress blog post on this project.</a>
+                    <a href="https://moviesearchapp-reactjs.herokuapp.com/" target="_blank">Launch this project with Heroku.</a>
                 </div>
             </SRLWrapper> 
         </div>
