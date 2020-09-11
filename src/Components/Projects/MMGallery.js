@@ -46,12 +46,12 @@ import './gallery.css'
 
             <div id="video">
                 <h3>Mac Motors Car Dealership Database demo.</h3>
-                <iframe src="https://www.youtube.com/embed/26Fg4ZxeZLQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0"></iframe>
+                <iframe title="Mac Motors Car Dealership Database demo YouTube video" src="https://www.youtube.com/embed/26Fg4ZxeZLQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0"></iframe>
             </div>
 
             <div id="links">
-                <a href="https://github.com/CoreyDennison/Car-Dealership-w-SQL-php" target="_blank">Project source code on GitHub.</a>
-                <a href="https://coreydennison.wordpress.com/2020/06/22/car-dealership-database/" target="_blank">Wordpress Blog article on this project.</a>
+                <a href="https://github.com/CoreyDennison/Car-Dealership-w-SQL-php" target="_blank" rel="noopener noreferrer">Project source code on GitHub.</a>
+                <a href="https://coreydennison.wordpress.com/2020/06/22/car-dealership-database/" target="_blank" rel="noopener noreferrer">Wordpress Blog article on this project.</a>
             </div>
             </SRLWrapper> 
         </div>

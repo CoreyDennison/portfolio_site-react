@@ -28,9 +28,9 @@ import './gallery.css'
                 </div>
 
                 <div id="links">
-                    <a href="https://github.com/CoreyDennison/React_Project" target="_blank">Source code on GitHub.</a>
-                    <a href="https://coreydennison.wordpress.com/2019/03/17/react-s-p-a/" target="_blank">Learn more at my WordPress blog post on this project.</a>
-                    <a href="https://moviesearchapp-reactjs.herokuapp.com/" target="_blank">Launch this project with Heroku.</a>
+                    <a href="https://github.com/CoreyDennison/React_Project" target="_blank" rel="noopener noreferrer">Source code on GitHub.</a>
+                    <a href="https://coreydennison.wordpress.com/2019/03/17/react-s-p-a/" target="_blank" rel="noopener noreferrer">Learn more at my WordPress blog post on this project.</a>
+                    <a href="https://moviesearchapp-reactjs.herokuapp.com/" target="_blank" rel="noopener noreferrer">Launch this project with Heroku.</a>
                 </div>
             </SRLWrapper> 
         </div>

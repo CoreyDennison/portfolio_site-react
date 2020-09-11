@@ -48,10 +48,10 @@ import './gallery.css'
             </div>
 
             <div id="links">
-                    <a href="https://coreydennison.wordpress.com/2019/03/31/app-design-and-prototyping" target="_blank">Wordpress blog post on the Over The Bump app design and prototyping process.</a>
-                    <a href="https://coreydennison.wordpress.com/2019/04/11/app-marketing-research/" target="_blank">Wordpress blog post on the app marketing research.</a>
-                    <a href="https://coreydennison.wordpress.com/2019/05/17/social-media-campaign/" target="_blank">Wordpress blog post on Facebook marketing research.</a>
-                    <a href="https://projects.invisionapp.com/share/7AU5KFJEURN#/screens" target="_blank">Over The Bump InVision Prototype (zoom web browser page out).</a>
+                    <a href="https://coreydennison.wordpress.com/2019/03/31/app-design-and-prototyping" target="_blank" rel="noopener noreferrer">Wordpress blog post on the Over The Bump app design and prototyping process.</a>
+                    <a href="https://coreydennison.wordpress.com/2019/04/11/app-marketing-research/" target="_blank" rel="noopener noreferrer">Wordpress blog post on the app marketing research.</a>
+                    <a href="https://coreydennison.wordpress.com/2019/05/17/social-media-campaign/" target="_blank" rel="noopener noreferrer">Wordpress blog post on Facebook marketing research.</a>
+                    <a href="https://projects.invisionapp.com/share/7AU5KFJEURN#/screens" target="_blank" rel="noopener noreferrer">Over The Bump InVision Prototype (zoom web browser page out).</a>
             </div>
             </SRLWrapper> 
         </div>

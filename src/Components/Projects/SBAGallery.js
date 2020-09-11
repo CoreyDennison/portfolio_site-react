@@ -31,12 +31,12 @@ import './gallery.css'
             </div>
 
             <div id="links">
-                <a href="https://github.com/CoreyDennison/codingproject2018" target="_blank">Source code on GitHub.</a>
-                <a href="https://coreydennison.wordpress.com/2019/01/14/artist-battle-app/" target="_blank">Learn more at my WordPress blog post on this project.</a>
-                <a href="https://artistbattleapp.herokuapp.com/" target="_blank">Launch this project with Heroku.</a>
-                <a href="https://github.com/CoreyDennison/api_battle" target="_blank">Renewed verison using fetch API source code.</a>
-                <a href="https://coreydennison.wordpress.com/2019/12/05/artist-battle-app-take-two/" target="_blank">Learn more at my WordPress blog post on renewed version.</a>
-                <a href="https://apibattle.herokuapp.com/" target="_blank">Launch renewed version of the app with Heroku.</a>
+                <a href="https://github.com/CoreyDennison/codingproject2018" target="_blank" rel="noopener noreferrer">Source code on GitHub.</a>
+                <a href="https://coreydennison.wordpress.com/2019/01/14/artist-battle-app/" target="_blank" rel="noopener noreferrer">Learn more at my WordPress blog post on this project.</a>
+                <a href="https://artistbattleapp.herokuapp.com/" target="_blank" rel="noopener noreferrer">Launch this project with Heroku.</a>
+                <a href="https://github.com/CoreyDennison/api_battle" target="_blank" rel="noopener noreferrer">Renewed verison using fetch API source code.</a>
+                <a href="https://coreydennison.wordpress.com/2019/12/05/artist-battle-app-take-two/" target="_blank" rel="noopener noreferrer">Learn more at my WordPress blog post on renewed version.</a>
+                <a href="https://apibattle.herokuapp.com/" target="_blank" rel="noopener noreferrer">Launch renewed version of the app with Heroku.</a>
             </div>
             </SRLWrapper> 
         </div>

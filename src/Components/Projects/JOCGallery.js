@@ -36,7 +36,7 @@ import './gallery.css'
             </div>
 
             <div id="links">
-                <a href="https://github.com/CoreyDennison/theJoyOfCha" target="_blank">Source code on GitHub.</a>
+                <a href="https://github.com/CoreyDennison/theJoyOfCha" target="_blank" rel="noopener noreferrer">Source code on GitHub.</a>
             </div>
             </SRLWrapper> 
 

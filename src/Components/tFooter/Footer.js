@@ -11,9 +11,9 @@ class Footer extends Component {
             <div id="footer">
                 <ul>
                     <li><i><FontAwesomeIcon icon={faPhoneAlt}/></i><a href="tel: 0892525476">(+353) 089 2525476</a></li>
-                    <li><i><FontAwesomeIcon icon={faEnvelope}/></i><a href="mailto:cmgdennison@gmail.com" target="_blank">cmgdennison@gmail.com</a></li>
+                    <li><i><FontAwesomeIcon icon={faEnvelope}/></i><a href="mailto:cmgdennison@gmail.com" target="_blank" rel="noopener noreferrer">cmgdennison@gmail.com</a></li>
                     <li><i><FontAwesomeIcon icon={faMapMarkerAlt}/></i>Kenmare, Co. Kerry, Ireland</li>
-                    <li><i><FontAwesomeIcon icon={faLinkedin}/></i><a href="https://www.linkedin.com/in/corey-dennison-1b30b410a/" target="_blank">My LinkedIn Profile</a></li>
+                    <li><i><FontAwesomeIcon icon={faLinkedin}/></i><a href="https://www.linkedin.com/in/corey-dennison-1b30b410a/" target="_blank" rel="noopener noreferrer">My LinkedIn Profile</a></li>
                 </ul>
             </div>
         )

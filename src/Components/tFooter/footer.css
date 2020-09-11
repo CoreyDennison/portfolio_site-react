@@ -2,20 +2,20 @@
     background-color: rgb(73, 73, 73);
     width: 100%;
     height: auto;
-    margin-top: 30px;
-    margin-bottom: -20px;
+    position: absolute;
 }
 
 #footer ul {
     color: white;
     font-size: 18px;
     list-style: none;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: -10px !important;
 }
 
 #footer ul li {
-    padding-bottom: 15px;}
+    padding-bottom: 15px;
+}
 
 #footer ul li i {
     padding-right: 15px;

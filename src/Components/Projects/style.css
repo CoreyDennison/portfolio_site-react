@@ -62,7 +62,7 @@ h2 {
     color: white;
     font-size: 22px;
     background-color: #79cdcf;
-    margin-top: -255px;
+    margin-top: -260px;
     margin-left: -2px;
     margin-right: -2px;
     padding-top: 112px;
@@ -99,7 +99,7 @@ h2 {
     color: white;
     font-size: 22px;
     background-color: #79cdcf;
-    margin-top: -255px;
+    margin-top: -260px;
     margin-left: -2px;
     margin-right: -2px;
     padding-top: 112px;
@@ -137,7 +137,7 @@ h2 {
     font-size: 22px;
     text-align: center;
     background-color: #79cdcf;
-    margin-top: -255px;
+    margin-top: -260px;
     margin-left: -3px;
     margin-right: -3px;
     padding-top: 101px;
@@ -176,7 +176,7 @@ h2 {
     font-size: 22px;
     text-align: center;
     background-color: #79cdcf;
-    margin-top: -255px;
+    margin-top: -260px;
     margin-left: -2px;
     margin-right: -2px;
     padding-top: 100px;
@@ -214,7 +214,7 @@ h2 {
     color: white;
     font-size: 22px;
     background-color: #79cdcf;
-    margin-top: -255px;
+    margin-top: -260px;
     margin-left: -2px;
     margin-right: -2px;
     padding-top: 112px;
@@ -252,7 +252,7 @@ h2 {
         padding-bottom: 84px;
         padding-left: 35px;
         padding-top: 90px;
-        margin-top: -204px;
+        margin-top: -212px;
     }
 
     .projects .spotify_con {
@@ -270,7 +270,7 @@ h2 {
         padding-bottom: 84px;
         padding-left: 20px;
         padding-top: 90px;
-        margin-top: -204px;
+        margin-top: -212px;
     }
 
     .projects .movie_con {
@@ -288,7 +288,7 @@ h2 {
         padding-bottom: 78px;
         padding-left: 20px;
         padding-top: 70px;
-        margin-top: -204px;
+        margin-top: -212px;
     }
 
     .projects .otb_con {
@@ -306,7 +306,7 @@ h2 {
         padding-bottom: 78px;
         padding-left: 20px;
         padding-top: 70px;
-        margin-top: -204px;
+        margin-top: -212px;
     }
 
     .projects .mm_con {
@@ -324,7 +324,7 @@ h2 {
         padding-bottom: 78px;
         padding-left: 10px;
         padding-top: 70px;
-        margin-top: -204px;
+        margin-top: -212px;
         text-align: center;
     }
 
@@ -333,13 +333,13 @@ h2 {
 @media only screen and (max-width: 420px){
 
     .projects {
-        margin-top: 70px;
+        margin-top: 50px;
         margin-bottom: -50px;
     }
 
     #projectStyles h2 {
         font-size: 22px !important;
-        margin-top: -50px;
+        margin-top: -20px;
     }
 
     .projects .joc_con, .spotify_con, .movie_con, .otb_con, .mm_con {

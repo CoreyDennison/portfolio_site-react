@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component} from 'react';
 import SimpleReactLightbox from 'simple-react-lightbox';
 import JOCImages  from './JOCGallery';
 import SBAImages from './SBAGallery';
@@ -8,6 +8,7 @@ import OTB2Images from './OTB2Gallery';
 import MMImages from './MMGallery';
 import Fade from 'react-reveal/Fade';
 import './style.css';
+import ReactGA from 'react-ga';
 
 class Projects extends Component {
 
@@ -40,6 +41,13 @@ class Projects extends Component {
     }) 
   }
 
+  openedJOC() {
+    ReactGA.event({
+      category: "JOC",
+      action: "Opened Joy Of Chá Project"
+    })
+  }
+
   openProject2() {
     this.setState({
       title: '',
@@ -48,6 +56,13 @@ class Projects extends Component {
       backArrow: true,
       sbaVisible: true
     }) 
+  }
+
+  openedSBA() {
+    ReactGA.event({
+      category: "SBA",
+      action: "Opened Spotify Battle App project"
+    })
   }
 
   openProject3() {
@@ -61,6 +76,13 @@ class Projects extends Component {
     }) 
   }
 
+  openedMSA() {
+    ReactGA.event({
+      category: "MSA",
+      action: "Opened Movie Search React API App project"
+    })
+  }
+
   openProject4() {
     this.setState({
       title: '',
@@ -72,6 +94,13 @@ class Projects extends Component {
     }) 
   }
 
+  openedOTB() {
+    ReactGA.event({
+      category: "OTB",
+      action: "Opened Over The Bump project"
+    })
+  }
+
   openProject5() {
     this.setState({
       title: '',
@@ -80,6 +109,13 @@ class Projects extends Component {
       backArrow: true,
       mmVisible: true
     }) 
+  }
+
+  openedMM() {
+    ReactGA.event({
+      category: "MM",
+      action: "Opened Mac Motors Database project"
+    })
   }
 
   openProjects(){
@@ -109,28 +145,28 @@ class Projects extends Component {
         <h2>{ this.state.projectTitle }</h2>
         <div className = 'projects' style={{display: this.state.setVisible ? null : 'none'}}>
 
-          <div className="joc_con" onClick={() => this.openProject1()}> 
-            <img src="./images/joc.jpg" width="100%" height="100%"/>         
+          <div className="joc_con" onClick={() => this.openProject1() + this.openedJOC()}> 
+            <img src="./images/joc.jpg" width="100%" height="100%" alt="Joy Of Chá project"/>         
             <p>The Joy Of Chá</p> 
           </div>
 
-          <div className="spotify_con" onClick={() => this.openProject2()}>
-          <img src="./images/artist.jpg" width="100%" height="100%"/> 
+          <div className="spotify_con" onClick={() => this.openProject2() + this.openedSBA()}>
+          <img src="./images/artist.jpg" width="100%" height="100%" alt="Spotify Artist Battle project"/> 
             <p>Spotify Artist Battle</p>
           </div>
 
-          <div className="movie_con" onClick={() => this.openProject3()}>
-          <img src="./images/display.jpg" width="100%" height="100%"/> 
+          <div className="movie_con" onClick={() => this.openProject3() + this.openedMSA()}>
+          <img src="./images/display.jpg" width="100%" height="100%" alt="Movie API React App project"/> 
             <p>Movie Search React App</p>
           </div>
 
-          <div className="otb_con" onClick={() => this.openProject4()}>
-          <img src="./images/otb.jpg" width="100%" height="100%"/> 
+          <div className="otb_con" onClick={() => this.openProject4() + this.openedOTB()}>
+          <img src="./images/otb.jpg" width="100%" height="100%" alt="Over The Bump mobile app project"/> 
             <p>Over The Bump Mobile App</p>
           </div>
 
-          <div className="mm_con" onClick={() => this.openProject5()}>
-          <img src="./images/mm.jpg" width="100%" height="100%"/> 
+          <div className="mm_con" onClick={() => this.openProject5() + this.openedMM()}>
+          <img src="./images/mm.jpg" width="100%" height="100%" alt="Mac Moters Database project"/> 
             <p>Mac Motors Database</p>
           </div>
 
@@ -143,12 +179,10 @@ class Projects extends Component {
             { this.state.sbaVisible ? <SBAImages /> : null }
             { this.state.msaVisible ? <MSAImages /> : null }
             { this.state.otbVisible ? <OTBImages /> : null }
+            { this.state.otb2Visible ? <OTB2Images /> : null }
             { this.state.mmVisible ? <MMImages /> : null }
           </SimpleReactLightbox>
 
-          <SimpleReactLightbox>
-            { this.state.otb2Visible ? <OTB2Images /> : null }
-          </SimpleReactLightbox>
         </div>
 
       </div>
